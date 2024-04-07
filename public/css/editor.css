@@ -97,4 +97,5 @@ textarea::-webkit-scrollbar-thumb{
     color: #fff;
     margin-left: 20px;
     font-size: 14px;
+    display: none;
 }
