@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(initial_path, "home.html"));
 })
 
+app.get('/upcommingEvents', (req, res) => {
+    res.sendFile(path.join(initial_path, "upcommingEvents.html"));
+})
+
 app.get('/editor', (req, res) => {
     res.sendFile(path.join(initial_path, "editor.html"));
 })
